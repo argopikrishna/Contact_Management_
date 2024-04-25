@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 5px 20px;
+    color: white;
+}
+
+.navigation-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar .logout {
+    margin-left: auto;
+
+}
+
+.navigation-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-information {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.user-information h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-information p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.user-information img {
+    margin-top: 20px;
+    width: 100px;
+    /* Or any size you want */
+    height: 100px;
+    /* Make this the same as the width */
+    object-fit: cover;
+    /* This will prevent distortion */
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #98a6ab;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a4a4a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a4a4a;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #98a6ab;
+}
+
+table tr:hover {
+    background-color: #cacfd9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-side {
+    flex: 3;
+    margin: 10px 20px 0;
+
+}
+
+.search-form {
+    display: flex;
+    justify-content: inline;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 85%;
+    background: #e9ecef;
+    height: 40px;
+    /* Add this line */
+    margin: 0;
+}
+
+.search-form input[type="submit"],
+.search-form input[type="reset"] {
+    margin-left: 2%;
+    float: left;
+    width: 135px;
+    background: #4a4a4a;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+    height: 40px;
+    /* Add this line */
+}
+
+.search-form input[type="submit"]:hover,
+.search-form input[type="reset"]:hover {
+    background: #6c6c6c;
+}

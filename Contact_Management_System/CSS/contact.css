@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 5px 20px;
+    color: white;
+}
+
+.navigation-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar .logout {
+    margin-left: auto;
+
+}
+
+.navigation-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+textarea {
+    border: none;
+    border: 1px solid #ddd;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.left-side {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-side {
+    flex: 3;
+    margin: 10px 20px 0;
+
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: #f8f8f8;
+
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    padding-right: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    /* Change as needed */
+    color: #444;
+    /* Dark gray */
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+    /* Light gray border */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    /* Darker gray */
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Light gray background on hover */
+
+a {
+    text-decoration: none;
+}
+
+
+.edit,
+.delete {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: bold;
+}
+
+.edit {
+    background-color: #4CAF50;
+}
+
+.edit:hover {
+    background-color: #45a049;
+}
+
+.delete {
+    background-color: red;
+}
+
+.delete:hover {
+    background-color: #AA4A44;
+}
+
+.edit-container,
+.delete-container {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.delete-container form {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+td.address {
+    max-width: 200px;
+    /* Adjust this value as needed */
+    overflow: hidden;
+    text-overflow: break-word;
+    white-space: normal;
+}
+
+#address {
+    width: 100%;
+    /* Adjust this value as needed */
+    height: 80px;
+    /* Adjust this value as needed */
+}
